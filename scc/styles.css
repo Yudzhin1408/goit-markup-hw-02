@@ -1,16 +1,16 @@
 :root {
   --logo-text-color: #2196f3;
-  --nav-text-color: #212121;
+  /* --nav-text-color: #212121; */
   --header-communication-text-color: #757575;
   --main-title-color: #ffffff;
   --accent-color: #2196f3;
 
   --button-text-color: #ffffff;
-  --btn-text-color: #212121;
+  /* --btn-text-color: #212121; */
   --btn-acent-color: #ffffff;
 
-  --title-title-color: #212121;
-  --subtitle-title-color: #212121;
+  /* --title-title-color: #212121;
+  --subtitle-title-color: #212121; */
   --desc-text-color: #757575;
 
   --footer-adress-text-color: #ffffff;
@@ -70,13 +70,14 @@ body {
 /* -----------------------------------main-------------------------------------------------- */
 /* ---------------------------------Зоголовок---------------------------- */
 .hero {
-  background-color: #555555;
+  background-color: #2f303a;
 }
 .hero-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
   color: var(--main-title-color);
 }
 
@@ -88,6 +89,10 @@ body {
   letter-spacing: 0.06em;
   color: var(--button-text-color);
   cursor: pointer;
+
+  background: #188ce8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -97,9 +102,10 @@ body {
 /* ----------------------------------особенность----------------------------- */
 .features-subtitle {
   font-weight: bold;
-  line-height: 16px;
-  letter-spacing: 1.14;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
   color: var(--subtitle-title-color);
+  text-transform: uppercase;
 }
 .features-text {
   line-height: 1.71px;
@@ -175,12 +181,13 @@ body {
 
 .button {
   font-family: inherit;
-  line-height: 1.71px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--btn-text-color);
   cursor: pointer;
 
   padding: 6px 22px;
+  border-radius: 4px;
 }
 .button:hover,
 .button:focus {
@@ -188,8 +195,9 @@ body {
 }
 
 .items-title {
+  font-weight: 700;
   font-size: 18px;
-  line-height: 2px;
+  line-height: 2;
   letter-spacing: 0.06em;
   color: var(--subtitle-title-color);
 }
