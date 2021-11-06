@@ -90,6 +90,7 @@ body {
 .hero-button:focus {
   color: var(--accent-color);
 }
+
 /* ----------------------------------особенность----------------------------- */
 .features-subtitle {
   font-weight: bold;
@@ -157,11 +158,12 @@ body {
 }
 
 .footer-communication {
-  font-size: 14px;
+  font-size: 54px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--footer-communication-text-color);
 }
+
 .footer {
   background-color: #2f303a;
 }
