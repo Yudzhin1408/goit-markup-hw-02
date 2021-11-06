@@ -1,16 +1,12 @@
 :root {
   --logo-text-color: #2196f3;
-  /* --nav-text-color: #212121; */
   --header-communication-text-color: #757575;
   --main-title-color: #ffffff;
   --accent-color: #2196f3;
 
   --button-text-color: #ffffff;
-  /* --btn-text-color: #212121; */
   --btn-acent-color: #ffffff;
 
-  /* --title-title-color: #212121;
-  --subtitle-title-color: #212121; */
   --desc-text-color: #757575;
 
   --footer-adress-text-color: #ffffff;
@@ -19,13 +15,12 @@
 
 h1,
 h2,
-h3.h4,
+h3,
+h4,
 h5,
 h5,
 h6,
 p {
-  padding: 0;
-  margin: 0;
   font-size: inherit;
 }
 
@@ -34,9 +29,6 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   color: #212121;
-}
-.active {
-  color: var(--accent-color);
 }
 
 .list {
@@ -64,7 +56,6 @@ body {
 
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--nav-text-color);
 }
 .header-link:hover,
 .header-link:focus {
@@ -80,6 +71,9 @@ body {
 
 .header-communication-link:hover,
 .header-communication-link:focus {
+  color: var(--accent-color);
+}
+.active {
   color: var(--accent-color);
 }
 /* -----------------------------------main-------------------------------------------------- */
@@ -119,7 +113,6 @@ body {
   font-weight: 700;
   line-height: 1.14;
   letter-spacing: 0.03em;
-  color: var(--subtitle-title-color);
   text-transform: uppercase;
 }
 .features-text {
@@ -134,7 +127,6 @@ body {
   font-size: 36px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  color: var(--title-title-color);
 }
 /* ----------------------------------команда----------------------------- */
 .team-title {
@@ -142,14 +134,12 @@ body {
   font-size: 36px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  color: var(--title-title-color);
 }
 .team-people {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
-  color: var(--subtitle-title-color);
 }
 .team-text {
   font-size: 16px;
@@ -200,7 +190,6 @@ body {
   font-size: 16px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--btn-text-color);
   cursor: pointer;
 
   padding: 6px 22px;
@@ -218,7 +207,6 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: var(--subtitle-title-color);
 }
 
 .slogan-title {
