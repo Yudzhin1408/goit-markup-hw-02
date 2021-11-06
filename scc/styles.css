@@ -17,11 +17,26 @@
   --footer-communication-text-color: rgba(255, 255, 255, 0.6);
 }
 
+h1,
+h2,
+h3.h4,
+h5,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+  font-size: inherit;
+}
+
 body {
   font-family: 'Raleway', sans-serif;
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   color: #212121;
+}
+.active {
+  color: var(--accent-color);
 }
 
 .list {
@@ -90,18 +105,18 @@ body {
   color: var(--button-text-color);
   cursor: pointer;
 
-  background: #188ce8;
+  background: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
 .hero-button:hover,
 .hero-button:focus {
-  color: var(--accent-color);
+  background: #188ce8;
 }
 
 /* ----------------------------------особенность----------------------------- */
 .features-subtitle {
-  font-weight: bold;
+  font-weight: 700;
   line-height: 1.14;
   letter-spacing: 0.03em;
   color: var(--subtitle-title-color);
@@ -181,6 +196,8 @@ body {
 
 .button {
   font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--btn-text-color);
@@ -188,10 +205,12 @@ body {
 
   padding: 6px 22px;
   border-radius: 4px;
+  background: #f5f4fa;
 }
 .button:hover,
 .button:focus {
   color: var(--btn-acent-color);
+  background: #188ce8;
 }
 
 .items-title {
