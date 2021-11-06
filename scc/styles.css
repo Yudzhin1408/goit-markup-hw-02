@@ -18,7 +18,10 @@
 }
 
 body {
+  font-family: 'Raleway', sans-serif;
   font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  color: #212121;
 }
 
 .list {
@@ -43,7 +46,7 @@ body {
 
 .header-link {
   font-weight: 500;
-  font-size: 14px;
+
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--nav-text-color);
@@ -55,7 +58,6 @@ body {
 
 .header-communication-link {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--header-communication-text-color);
@@ -85,6 +87,7 @@ body {
   line-height: 1.87;
   letter-spacing: 0.06em;
   color: var(--button-text-color);
+  cursor: pointer;
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -94,13 +97,11 @@ body {
 /* ----------------------------------особенность----------------------------- */
 .features-subtitle {
   font-weight: bold;
-  font-size: 14px;
   line-height: 16px;
   letter-spacing: 1.14;
   color: var(--subtitle-title-color);
 }
 .features-text {
-  font-size: 14px;
   line-height: 1.71px;
   letter-spacing: 0.03em;
   color: var(--desc-text-color);
@@ -147,7 +148,7 @@ body {
 }
 .footer-addres {
   font-style: inherit;
-  font-size: 14px;
+
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
@@ -158,10 +159,13 @@ body {
 }
 
 .footer-communication {
-  font-size: 54px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--footer-communication-text-color);
+}
+.footer-communication:hover,
+.footer-communication:focus {
+  color: var(--accent-color);
 }
 
 .footer {
@@ -171,12 +175,12 @@ body {
 
 .button {
   font-family: inherit;
-  font-size: 14px;
   line-height: 1.71px;
   letter-spacing: 0.03em;
   color: var(--btn-text-color);
+  cursor: pointer;
 
-  padding: 0.5em;
+  padding: 6px 22px;
 }
 .button:hover,
 .button:focus {
